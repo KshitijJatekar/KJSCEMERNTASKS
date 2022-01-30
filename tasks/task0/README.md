@@ -13,5 +13,5 @@
 
 ## Example Result
 
-<img src="../assets/task0-ss1.jpg" height="200" />
-<img src="../assets/task0-ss2.jpg" height="200" />
+<img src="../assets/task0/screeshots0/task0a.jpg" height="200" />
+<img src="../assets/task0/screeshots0/task0a.jpg" height="200" />
