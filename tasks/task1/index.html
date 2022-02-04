@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+<title>TASK1</title>
+</head>
+<body style="background-color:#0A00C7 ;">
+    <div class="box">
+    <h1 align="center"><strong>Login</strong></h1>
+    <br>
+    <form  align="center">
+    <input type="text" id="fname" name="fname" placeholder="Email" required><br>
+    <br>
+    <input type="Password" id="lname" name="lname" placeholder="Password" required><br><br>
+    <input type="submit" id="submit" value="Login" onclick="login()">
+    <br><br>
+    <a style="text-decoration:none" href="https://www.kjscecodecell.com/" target="_blank" id="CP" class="underline-on-hover"><strong>Go to Codecell Page!</strong></a>
+</form> 
+    </div>
+    <script>
+            document.getElementById("CP").addEventListener("mouseover", over);
+           
+            document.getElementById("CP").addEventListener("mouseout", out);
+ 
+            function over() {
+                document.getElementById("CP").style.color = "green";
+            }
+ 
+            function out() {
+                document.getElementById("CP").style.color = "black";
+            }
+            function login(){
+                
+                const item=[];
+                item.push(document.getElementById("fname").value);
+                item.push(document.getElementById("lname").value);
+                console.log(item);
+                alert("You have logged in");
+               
+                
+            }
+
+     </script>
+</body>
+</html>
